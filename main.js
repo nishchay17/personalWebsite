@@ -12,7 +12,9 @@ const l3 = document.getElementById('l3');
 const l4 = document.getElementById('l4');
 const l5 = document.getElementById('l5');
 
+
 function toDark(){
+
     body.classList.add('dark');
     body.classList.add('text-light');
     btn1.classList.add('btn-dark');
@@ -33,6 +35,7 @@ function toDark(){
 }
 
 function toLight(){
+
     body.classList.remove('dark');
     body.classList.remove('text-light');
     btn1.classList.remove('btn-dark');
